@@ -1,0 +1,24 @@
+###
+#Alias for basic things in devops
+###
+
+
+
+#kubectl
+alias k="kubectl"
+alias kx="kubectx"
+alias kns="kubens"
+alias kdebug="kubectl run debugger-pod --image=radial/busyboxplus:curl -i -tty -rm"
+
+#Terraform
+alias tf="terraform"
+alias tff="terraform fmt -check -diff"
+alias tffw="terraform fmt -write=true -recursive"
+alias tfv="terraform validate"
+
+#Packer
+
+alias pk="packer"
+alias pff="packer fmt -check -diff"
+alias pffw="packer fmt -write=true -recursive"
+alias pfv="packer validate"
