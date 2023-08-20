@@ -24,7 +24,7 @@ brew install \
     ansible \
     kubectx \
     awscli \
-    fzf \ 
+    fzf \ 4
     watch \
     git \
     postgresql \
@@ -44,7 +44,8 @@ brew install --cask \
     elgato-camera-hub \
     google-drive \
     discord \
-    slack 
+    slack \
+    istat-menus
 
 
 
