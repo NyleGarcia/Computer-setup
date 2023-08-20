@@ -24,7 +24,7 @@ brew install \
     ansible \
     kubectx \
     awscli \
-    fzf \ 4
+    fzf \ 
     watch \
     git \
     postgresql \
